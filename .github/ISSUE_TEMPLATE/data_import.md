@@ -7,10 +7,13 @@ assignees: ''
 ---
 
 **Dataset Info**
-_Dataset name_
-_Dataset URL_
+_Name:_ 
+_Source URL:_ 
+_License:_ 
+_Geo area:_ 
+_Timeframe:_ 
 
-_Why will this help OHM's data quality - comprehensiveness, accuracy, better licensing/copyright status?_
+_Why will this help OHM's data quality - comprehensiveness, accuracy, better licensing/copyright status, metadata quality?_
 
 **Import Considerations**
 _What existing OHM data might this conflict with? Will it impact any existing relations or create unnecessary duplication? The plan below *must* account for avoiding potential conflicts._
