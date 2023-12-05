@@ -3,7 +3,7 @@ name: Map stylesheet request
 about: Use this template to request changes to the default map style on openhistoricalmap.org
 title: ''
 labels: stylesheets
-assignees: ''
+assignees: 'vknoppkewetzel'
 
 ---
 
