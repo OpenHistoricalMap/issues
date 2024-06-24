@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: OpenHistoricalMap Forum
+    url: https://forum.openhistoricalmap.org/
+    about: Ask a question or propose a data import.
+  - name: OpenHistoricalMap projects on the OpenStreetMap Wiki
+    url: https://wiki.openstreetmap.org/wiki/OpenHistoricalMap/Projects
+    about: Document a mapping project or a proposed data import.

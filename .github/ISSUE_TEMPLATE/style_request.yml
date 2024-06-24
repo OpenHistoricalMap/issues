@@ -1,0 +1,33 @@
+name: Map stylesheet request
+description: Request a change to a map style built into openhistoricalmap.org
+labels:
+ - stylesheets
+assignees:
+ - vknoppkewetzel
+body:
+ - type: textarea
+   id: description
+   attributes:
+     label: Description
+     description: Describe what you want to see added or modified in the style. Is it something easy to explain like a color fill or rendering something not currently showing? Or is it a more complex need specific to historical mapping? 
+ - type: textarea
+   id: examples
+   attributes:
+     label: Examples
+     description: Examples of where you expect to see the changes reflected on the map. Include screenshots and full openhistoricalmap.org URLs.
+ - type: textarea
+   id: prior-art
+   attributes:
+     label: Prior art
+     description: If you’re asking for new symbology, especially for historical points of interest or areas that might not be part of modern maps, are there existing cartographic symbols or standards we can reference? The more info you can provide here the better!
+ - type: input
+   id: tag
+   attributes:
+     label: Tag
+     description: A relevant key, tag value, or relation type in the OpenHistoricalMap database. Link to documentation on the OpenStreetMap Wiki if available.   
+     placeholder: key=value
+ - type: textarea
+   id: additional
+   attributes:
+     label: Additional information
+     description: Any other context, such as the relevant property in the vector tile schema.

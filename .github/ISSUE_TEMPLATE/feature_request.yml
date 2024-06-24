@@ -1,0 +1,25 @@
+name: Bug report
+description: Suggest a new feature for OpenHistoricalMap
+labels:
+ - enhance
+body:
+ - type: textarea
+   id: description
+   attributes:
+     label: Description
+     description: Describe a new feature for OpenHistoricalMap. 
+ - type: textarea
+   id: motivation
+   attributes:
+     label: Motivation
+     description: Describe who would benefit from this feature and how they would benefit.
+ - type: textarea
+   id: workarounds
+   attributes:
+     label: Existing workarounds
+     description: An existing, possibly hacky workaround for accomplishing the same goal.
+ - type: textarea
+   id: additional
+   attributes:
+     label: Additional information
+     description: Any other context, comparables, screenshots, pictures of drawings on napkins about the feature request.
