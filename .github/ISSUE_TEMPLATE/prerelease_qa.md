@@ -19,7 +19,7 @@ assignees: ''
 
 ## iD
 
-   - [ ] Make edition for each object (Edit, Update and Remove): node, way, relations in  dates `start_date=1800`  and  `end_date=2023` and make sure to add a name `name=<uniq>` , because name is gong to be used to test in nominatim
+ - [ ] Make edition for each object (Edit, Update and Remove): node, way, relations in  dates `start_date=1800`  and  `end_date=2023` and make sure to add a name `name=<uniq>` , because name is gong to be used to test in nominatim
         - Make an edit with something we know is symbolized clearly on the map
         - Examples: Landuse, Buildings, highways, POI
     - [ ] Upload changesets
