@@ -11,8 +11,28 @@ assignees: ''
 - [ ] User creation
 - [ ] User Login in website
 - [ ] Check all the important URLs route on the site, navigating between them and confirming that login is respected
-    - [ ] Verify that all tabs in the main page load correctly: GPS Traces, User Diaries, Copyright, Help, About
-    - [ ] Verify that all URLs in the breakdown of user name work correctly: My Dashboard, My Messages, My Profile, My Settings, My Preferences
+- [ ] Verify that all tabs in the main page load correctly
+    - History
+      - [ ] Displays a list of changesets
+    - Export
+      - [ ] Zooming out triggers an _area is too large__ warning
+      - [ ] __Export__ generates a __map.osm__ file for download 
+    - GPS Traces (does not work locally)
+      - Verify that a new __Identifiable__ trace can be uploaded
+      - [ ] File uploads without error
+      - [ ] Trace is marked as pending in table row
+      - [ ] Email is generated & sent when processed
+      - [ ] Trace outline is displayed in table row with name, number of points, __IDENTIFIABLE__ badge, elapsed time since posting, display name, and description
+      - [ ] __View Map__ plots a marker at correct location
+    - User Diaries
+      - [ ] Displays a list of __Recent diary entries__
+    - Copyright
+      - [ ] Displays the __Copyright and License__ page with no errors or irrelevant (e.g., suspicious OSM/upstream) strings.
+    - Help
+      - [ ] Displays the __Getting Help__ page with carded options. 
+    - About
+      - [ ] Displays a noticeably styled page with no errors or irrelevant (e.g., suspicious OSM/upstream) strings.
+- [ ] Verify that all URLs in the breakdown of user name work correctly: My Dashboard, My Messages, My Profile, My Settings, My Preferences
 - [ ] Verify that enhanced inspector is loading. For example, [this Way](https://www.openhistoricalmap.org/way/198636092#map=20/37.90452/-122.55273&layers=OD&date=1923-01-01&daterange=1923-01-01,2023-12-31) should load a slideshow with photos. If it does not, that usually means we need to adjust our injection code to target changed HTML in the upstream code.
 - [ ] Search for a location using the search bar
 - [ ] User logout
