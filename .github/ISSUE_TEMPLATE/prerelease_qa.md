@@ -43,7 +43,9 @@ assignees: ''
     - [ ] Displays tabs for Settings, auth applications, and auth authorizations
   - My Preferences
     - [ ] Displays editor and language preferences
-- [ ] Verify that enhanced inspector is loading. For example, [this Way](https://www.openhistoricalmap.org/way/198636092#map=20/37.90452/-122.55273&layers=OD&date=1923-01-01&daterange=1923-01-01,2023-12-31) should load a slideshow with photos. If it does not, that usually means we need to adjust our injection code to target changed HTML in the upstream code.
+- [ ] Verify that enhanced inspector is loading. This way should load a slideshow with photos. If it does not, that usually means we need to adjust our injection code to target changed HTML in the upstream code.
+    - [staging](https://staging.openhistoricalmap.org/way/198636092#map=20/37.90452/-122.55273&layers=OD&date=1923-01-01&daterange=1923-01-01,2023-12-31)
+    - [production](https://www.openhistoricalmap.org/way/198636092#map=20/37.90452/-122.55273&layers=OD&date=1923-01-01&daterange=1923-01-01,2023-12-31)
 - [ ] Search for a location using the search bar
 - [ ] User logout
 
