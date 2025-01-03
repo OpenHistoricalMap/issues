@@ -1,0 +1,46 @@
+name: Bug report
+description: Report any unexpected behavior to help us improve OpenHistoricalMap.
+labels:
+ - bug
+body:
+ - type: textarea
+   id: actual
+   attributes:
+     label: What happened?
+     description: Describe the actual, unexpected behavior. Consider including a screenshot to illustrate the problem.
+ - type: textarea
+   id: expected
+   attributes:
+     label: What should happen?
+     description: Describe the behavior you expected.
+ - type: textarea
+   id: repro-steps
+   attributes:
+     label: Steps to reproduce
+     description: Provide detailed instructions to reproduce the behavior, including the URL of the specific webpage where the problem is present. 
+     placeholder: |
+       1. Go to '...'
+       2. Click on '....'
+       3. Scroll down to '....'
+       4. See error
+ - type: textarea
+   id: environment
+   attributes:
+     label: Environment
+     description: Describe your environment, such as your Web browser, operating system, or whether you’re logged into OpenHistoricalMap. 
+ - type: dropdown
+   id: reproducibility
+   attributes:
+     label: Reproducibility
+     description: How often or easy is it to reproduce this issue?
+     options:
+      - Don’t know
+      - Always
+      - Sometimes
+      - Never
+     default: 0
+ - type: textarea
+   id: additional
+   attributes:
+     label: Additional information
+     description: Mention any existing workaround. If you think you know what causes the issue or how to fix it, explain it here.
