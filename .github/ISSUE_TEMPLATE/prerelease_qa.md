@@ -22,7 +22,7 @@ assignees: ''
       - [ ] File uploads without error
       - [ ] Trace is marked as pending in table row
       - [ ] Email is generated & sent when processed
-      - [ ] Trace outline is displayed in table row with name, number of points, __IDENTIFIABLE__ badge, elapsed time since posting, display name, and description
+      - [ ] Trace outline is displayed in table row with displayname, number of points, __IDENTIFIABLE__ badge, elapsed time since posting, display name, and description
       - [ ] __View Map__ plots a marker at correct location
     - User Diaries
       - [ ] Displays a list of __Recent diary entries__
@@ -32,7 +32,17 @@ assignees: ''
       - [ ] Displays the __Getting Help__ page with carded options. 
     - About
       - [ ] Displays a noticeably styled page with no errors or irrelevant (e.g., suspicious OSM/upstream) strings.
-- [ ] Verify that all URLs in the breakdown of user name work correctly: My Dashboard, My Messages, My Profile, My Settings, My Preferences
+- [ ] Verify that all dropdowns for __displayname__ work correctly
+  - My Dashboard
+    - [ ] Displays potential lists of friends and other nearby users
+  - My Messages
+    - [ ] Displays message count in dropdown, new, old, & sent on page
+  - My Profile
+    - [ ] Displays profiel picture, stats, __Edit__ option 
+  - My Settings
+    - [ ] Displays tabs for Settings, auth applications, and auth authorizations
+  - My Preferences
+    - [ ] Displays editor and language preferences
 - [ ] Verify that enhanced inspector is loading. For example, [this Way](https://www.openhistoricalmap.org/way/198636092#map=20/37.90452/-122.55273&layers=OD&date=1923-01-01&daterange=1923-01-01,2023-12-31) should load a slideshow with photos. If it does not, that usually means we need to adjust our injection code to target changed HTML in the upstream code.
 - [ ] Search for a location using the search bar
 - [ ] User logout
