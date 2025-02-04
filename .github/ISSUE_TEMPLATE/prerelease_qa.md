@@ -58,10 +58,12 @@ assignees: ''
     - [ ] View the changeset and note if session persists
 
 ## JOSM
+- Check authentication
+  - [ ] Should be possible to login using OAuth 2
+  - [ ] Should be impossible to login using OAuth 1 or Basic Auth
 - [ ]  Edit in JOSM and confirm we can push to right place: staging or production
      - https://staging.openhistoricalmap.org/api
      - https://www.openhistoricalmap.org/api
-- [ ] Check authentication in JOSM
 - [ ] Make some random edits with range of date
 - [ ] Upload changesets
 
@@ -79,6 +81,11 @@ assignees: ''
    - https://nominatim-staging.openhistoricalmap.org/
    - https://nominatim.openhistoricalmap.org/
 
+## OSMCha
+- Check authentication
+  - [ ] Should be possible to login using OAuth 2
+  - [ ] Should be impossible to login using OAuth 1 or Basic Auth
+
 ## Overpass
  - [ ] Use overpass turbo to query Overpass to confirm that new edits are showing up
    - https://overpass-turbo-staging.openhistoricalmap.org/
@@ -91,3 +98,8 @@ Note: taginfo has been updating every week, so it may not be necessary to test.
 - [ ] Confirm TagInfo is consuming and updating diffs
     - https://taginfo-staging.openhistoricalmap.org/keys
     - https://taginfo.openhistoricalmap.org/keys
+
+## Tasking Manager
+- Check authentication
+  - [ ] Should be possible to login using OAuth 2
+  - [ ] Should be impossible to login using OAuth 1 or Basic Auth
