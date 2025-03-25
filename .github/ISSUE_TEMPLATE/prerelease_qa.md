@@ -38,7 +38,7 @@ assignees: ''
   - My Messages
     - [ ] Displays message count in dropdown, new, old, & sent on page
   - My Profile
-    - [ ] Displays profiel picture, stats, __Edit__ option 
+    - [ ] Displays profile picture, stats, __Edit__ option 
   - My Settings
     - [ ] Displays tabs for Settings, auth applications, and auth authorizations
   - My Preferences
