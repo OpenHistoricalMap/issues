@@ -17,7 +17,7 @@ assignees: ''
     - Export
       - [ ] Zooming out triggers an _area is too large__ warning
       - [ ] __Export__ generates a __map.osm__ file for download 
-    - GPS Traces (does not work locally)
+    - GPS Traces
       - Verify that a new __Identifiable__ trace can be uploaded
       - [ ] File uploads without error
       - [ ] Trace is marked as pending in table row
