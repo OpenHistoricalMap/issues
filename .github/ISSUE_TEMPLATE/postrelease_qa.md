@@ -1,8 +1,8 @@
 ---
-name: Prelease QA Pass
-about: Checklist to validate key functionality before release
-title: 'Prelease QA Pass'
-labels: 'infrastructure'
+name: Postlease QA Pass
+about: Checklist to validate key functionality post release
+title: 'Postlease QA Pass'
+labels: 'infrastructure, website'
 assignees: ''
 
 ---
@@ -44,7 +44,7 @@ assignees: ''
   - My Preferences
     - [ ] Displays editor and language preferences
 - [ ] Verify that enhanced inspector is loading. This way should load a slideshow with photos. If it does not, that usually means we need to adjust our injection code to target changed HTML in the upstream code.
-    - [staging](https://staging.openhistoricalmap.org/way/198636092#map=20/37.90452/-122.55273&layers=OD&date=1923-01-01&daterange=1923-01-01,2023-12-31)
+    - [production](https://www.openhistoricalmap.org/way/198636092#map=20/37.90452/-122.55273&layers=OD&date=1923-01-01&daterange=1923-01-01,2023-12-31)
 - [ ] Search for a location using the search bar
 - [ ] User logout
 
@@ -59,13 +59,39 @@ assignees: ''
 ## JOSM
 - Check authentication
   - [ ] Should be possible to login using OAuth 2
-- [ ]  Edit in JOSM and confirm we can push to right place: staging or production
-     - https://staging.openhistoricalmap.org/api
+- [ ]  Edit in JOSM and confirm we can push to right place:
+     - https://www.openhistoricalmap.org/api
 - [ ] Make some random edits with range of date
 - [ ] Upload changesets
 
+## Minute replication reflects the changesets
+- [ ] http://planet.openhistoricalmap.org/
+
+## Tiler
+- [ ] Confirm that the edit is appearing in the vector tiles in a timely manner (10 min)
+- [ ] Play with the range dates in the website, according the `start_date` and `end_date` tags of the features.
+
+## Nominatim
+- [ ] Test searches on Nominatim, for a known working thing. 
+- [ ] Add something new to OHM that Nominatim will search, then confirm it is searchable
+   - https://nominatim.openhistoricalmap.org/
+
+## OSMCha
+- Check authentication
+  - [ ] Should be possible to login using OAuth 2
+  - [ ] Should be impossible to login using OAuth 1 or Basic Auth
+
+## Overpass
+ - [ ] Use overpass turbo to query Overpass to confirm that new edits are showing up
+   - https://overpass-turbo.openhistoricalmap.org/
+    
+## Taginfo
+
+Note: taginfo has been updating every week, so it may not be necessary to test.
+
+- [ ] Confirm TagInfo is consuming and updating diffs
+    - https://taginfo.openhistoricalmap.org/keys
 
 ## Tasking Manager
 - Check authentication
   - [ ] Should be possible to login using OAuth 2
-  - [ ] Should be impossible to login using OAuth 1 or Basic Auth
