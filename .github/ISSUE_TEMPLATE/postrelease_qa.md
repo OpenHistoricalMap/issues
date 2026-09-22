@@ -1,7 +1,7 @@
 ---
-name: Postlease QA Pass
+name: Post-release QA Pass
 about: Checklist to validate key functionality post release
-title: 'Postlease QA Pass'
+title: 'Post-release QA Pass'
 labels: 'infrastructure, website'
 assignees: ''
 
@@ -46,7 +46,21 @@ assignees: ''
 - [ ] Verify that enhanced inspector is loading. This way should load a slideshow with photos. If it does not, that usually means we need to adjust our injection code to target changed HTML in the upstream code.
     - [production](https://www.openhistoricalmap.org/way/198636092#map=20/37.90452/-122.55273&layers=OD&date=1923-01-01&daterange=1923-01-01,2023-12-31)
 - [ ] Search for a location using the search bar
+- [ ] Sign-up confirmation and password reset emails arrive
+- [ ] Switch to 2 or 3 other languages and check for OSM wording
+- [ ] Node, way, relation and changeset pages load, and history and version links work
+- [ ] Upload a profile picture
+- [ ] A 404 page shows the OHM layout
+- [ ] Menu and sidebar work at mobile width
 - [ ] User logout
+
+## Map
+- [ ] Time slider: change the date and the range, and the map updates. Play, pause and reset work
+- [ ] `date` and `daterange` stay in the URL after a reload and in the Share link
+- [ ] Each base layer loads: Historical, Railway, Woodblock, Japanese Scroll
+- [ ] Map Data and Notes overlays turn on from the layer panel
+- [ ] Right-click > Query features lists objects for the current date
+- [ ] Share panel: link and HTML embed work
 
 ## iD
 
@@ -55,6 +69,7 @@ assignees: ''
         - Examples: Landuse, Buildings, highways, POI
     - [ ] Upload changesets
     - [ ] View the changeset and note if session persists
+    - [ ] The changeset ID exists on production, not on staging
 
 ## JOSM
 - Check authentication
