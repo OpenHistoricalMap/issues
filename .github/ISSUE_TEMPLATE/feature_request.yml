@@ -1,7 +1,7 @@
-name: Bug report
+name: Feature request
 description: Suggest a new feature for OpenHistoricalMap
 labels:
- - enhance
+ - new feature
 body:
  - type: textarea
    id: description

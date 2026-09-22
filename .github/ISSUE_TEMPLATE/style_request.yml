@@ -2,8 +2,6 @@ name: Map stylesheet request
 description: Request a change to a map style built into openhistoricalmap.org
 labels:
  - stylesheets
-assignees:
- - vknoppkewetzel
 body:
  - type: textarea
    id: description

@@ -1,7 +1,5 @@
 name: Bug report
 description: Report any unexpected behavior to help us improve OpenHistoricalMap.
-labels:
- - bug
 body:
  - type: textarea
    id: actual
